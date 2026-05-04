@@ -13,6 +13,8 @@ This project introduces a hybrid security architecture that combines **Machine L
 
 By monitoring syscall patterns in real-time, the system can distinguish between legitimate administrative tasks and malicious attempts to break out of container boundaries.
 
+![alt text](images\sys-flowchart.png)
+
 ### Key Features
 *   **Hybrid Detection Engine:** Integration of a Multi-Layer Perceptron (MLP) neural network with a deterministic rule-based validator.
 *   **Behavioral Vectorization:** Transforms raw syscall logs into numerical vectors based on 7 key metrics: frequency, entropy, dangerous call ratio, privilege ratio, and network activity.
@@ -32,8 +34,7 @@ The system was evaluated against various architectures, with the **MLP (Neural N
 | SVM | 0.7307 | 0.5983 | 0.9328 | 0.7290 |
 | Naive Bayes | 0.6621 | 0.5425 | 0.8280 | 0.6556 |
 
-![alt text](roc_curve.png)
-
+![alt text](images\roc_curve.png)
 
 ---
 
