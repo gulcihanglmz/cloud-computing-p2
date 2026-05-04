@@ -13,7 +13,7 @@ This project introduces a hybrid security architecture that combines **Machine L
 
 By monitoring syscall patterns in real-time, the system can distinguish between legitimate administrative tasks and malicious attempts to break out of container boundaries.
 
-![alt text](images\sys-flowchart.png)
+<img width="631" height="916" alt="sys-flowchart" src="https://github.com/user-attachments/assets/07743bb1-4de0-4667-90cf-d2c0112339fe" />
 
 ### Key Features
 *   **Hybrid Detection Engine:** Integration of a Multi-Layer Perceptron (MLP) neural network with a deterministic rule-based validator.
@@ -34,7 +34,7 @@ The system was evaluated against various architectures, with the **MLP (Neural N
 | SVM | 0.7307 | 0.5983 | 0.9328 | 0.7290 |
 | Naive Bayes | 0.6621 | 0.5425 | 0.8280 | 0.6556 |
 
-![alt text](images\roc_curve.png)
+<img width="861" height="552" alt="roc2" src="https://github.com/user-attachments/assets/8e03a362-7bc6-4617-83ed-5c670392932b" />
 
 ---
 
