@@ -21,6 +21,9 @@ By monitoring syscall patterns in real-time, the system can distinguish between 
 *   **Forensic Reporting:** Identifies specific attack signatures (e.g., `mount` + `unshare` chains) to provide human-readable evidence for SOC analysts.
 *   **Risk Suppression:** Intelligent logic that automatically lowers risk scores for baseline behaviors to minimize "alert fatigue."
 
+
+https://github.com/user-attachments/assets/fb594176-5f27-4885-9182-eeef9fabe958
+
 ---
 
 ## Performance Benchmarks
